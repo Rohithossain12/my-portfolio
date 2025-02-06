@@ -1,13 +1,14 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import image from "../../assets/174131581.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 fixed w-full z-50 shadow-lg">
+    <nav className="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">My Portfolio</h1>
+        {/* <h1 className="text-2xl font-bold">My Portfolio</h1> */}
+        <img className="w-12 h-12 rounded-full" src={image} alt="" />
 
         <button
           className="md:hidden text-white focus:outline-none"
@@ -35,12 +36,12 @@ const Navbar = () => {
           }`}
         >
           <li className="text-center">
-            <a to="#home" className="cursor-pointer hover:text-gray-300">
+            <a href="#home" className="cursor-pointer hover:text-gray-300">
               Home
             </a>
           </li>
           <li className="text-center">
-            <a to="#about" className="cursor-pointer hover:text-gray-300">
+            <a href="#about" className="cursor-pointer hover:text-gray-300">
               About Me
             </a>
           </li>
