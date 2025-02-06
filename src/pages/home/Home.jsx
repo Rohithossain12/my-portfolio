@@ -10,18 +10,18 @@ import image from "../../assets/174131581.jpeg";
 const Home = () => {
   return (
     <div className="container mx-auto px-4 mt-10">
-      <section className="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 text-white py-10 rounded-lg">
+      <section className="bg-gray-800 text-white text-white py-10 rounded-lg">
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left p-10 space-y-6 md:space-y-0">
           <div className="md:w-1/2">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+            <h1 className="text-3xl  sm:text-4xl md:text-5xl font-bold">
               Hi There! <span className="wave">👋</span>
             </h1>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-purple-200 mt-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold  mt-2">
               I'M ROHIT HOSSAIN
             </h2>
 
             <div className="mt-4">
-              <span className="text-lg sm:text-xl md:text-2xl font-semibold">
+              <span className="text-lg text-purple-500 sm:text-xl md:text-2xl font-semibold">
                 <Typewriter
                   words={["I'm a Full Stack Developer.", "React Developer."]}
                   loop={true}
@@ -46,25 +46,25 @@ const Home = () => {
             <div className="flex space-x-6 justify-center md:justify-start mt-6">
               <a
                 href="https://github.com/Rohithossain12"
-                className="text-purple-200 text-2xl sm:text-3xl md:text-4xl hover:text-white"
+                className=" text-2xl sm:text-3xl md:text-4xl hover:text-white"
               >
                 <FaGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/rohit-hossain-4b21281b9"
-                className="text-purple-200 text-2xl sm:text-3xl md:text-4xl hover:text-white"
+                className="text-2xl sm:text-3xl md:text-4xl hover:text-white"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="https://www.facebook.com/rafid.islam.96199"
-                className="text-purple-200 text-2xl sm:text-3xl md:text-4xl hover:text-white"
+                className=" text-2xl sm:text-3xl md:text-4xl hover:text-white"
               >
                 <FaFacebook />
               </a>
               <a
                 href="mailto:rafidislamrohit576@gmail.com"
-                className="text-purple-200 text-2xl sm:text-3xl md:text-4xl hover:text-white"
+                className=" text-2xl sm:text-3xl md:text-4xl hover:text-white"
               >
                 <FaEnvelope />
               </a>
@@ -92,11 +92,11 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section>
+      <section className="mt-10">
         <About />
       </section>
       {/* Skills Section */}
-      <section>
+      <section className="mt-10">
         <Skills />
       </section>
       {/* Projects */}
