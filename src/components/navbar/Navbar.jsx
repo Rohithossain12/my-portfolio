@@ -1,11 +1,16 @@
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import image from "../../assets/174131581.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); 
+
+
+  const isHomePage = location.pathname === "/";
 
   return (
-    <nav className="bg-gray-800 text-white text-white p-4 sticky top-0 z-50 shadow-lg">
+    <nav className="bg-gray-800 text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <img className="w-12 h-12 rounded-full" src={image} alt="" />
 
@@ -34,40 +39,51 @@ const Navbar = () => {
             isOpen ? "block" : "hidden md:flex"
           }`}
         >
-          <li className="text-center">
-            <a href="#home" className="cursor-pointer hover:text-gray-300">
-              Home
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#about" className="cursor-pointer hover:text-gray-300">
-              About Me
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#skills" className="cursor-pointer hover:text-gray-300">
-              Skills
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#projects" className="cursor-pointer hover:text-gray-300">
-              Projects
-            </a>
-          </li>
-          <li className="text-center">
-            <a href="#contact" className="cursor-pointer hover:text-gray-300">
-              Contact
-            </a>
-          </li>
-          <li className="text-center">
-            <a
-              href="/resume.pdf"
-              download
-              className="bg-white text-purple-600 px-4 py-2 rounded-full hover:bg-gray-200"
-            >
-              Resume
-            </a>
-          </li>
+         
+          {isHomePage ? (
+            <>
+              <li className="text-center">
+                <a href="#home" className="cursor-pointer hover:text-gray-300">
+                  Home
+                </a>
+              </li>
+              <li className="text-center">
+                <a href="#about" className="cursor-pointer hover:text-gray-300">
+                  About Me
+                </a>
+              </li>
+              <li className="text-center">
+                <a href="#skills" className="cursor-pointer hover:text-gray-300">
+                  Skills
+                </a>
+              </li>
+              <li className="text-center">
+                <a href="#projects" className="cursor-pointer hover:text-gray-300">
+                  Projects
+                </a>
+              </li>
+              <li className="text-center">
+                <a href="#contact" className="cursor-pointer hover:text-gray-300">
+                  Contact
+                </a>
+              </li>
+              <li className="text-center">
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="bg-white text-purple-600 px-4 py-2 rounded-full hover:bg-gray-200"
+                >
+                  Resume
+                </a>
+              </li>
+            </>
+          ) : (
+            <li className="text-center">
+              <Link to="/" className="cursor-pointer hover:text-gray-300">
+                Home
+              </Link>
+            </li>
+          )}
         </ul>
       </div>
     </nav>
