@@ -15,7 +15,8 @@ const projects = [
     image: "https://i.ibb.co.com/WNJnqQ3g/Capturdcfvfcde.png",
     description: "Restaurant Management Website 🍽️",
     liveLink: "https://cute-kulfi-0cc763.netlify.app",
-    githubLink: "https://github.com/Rohithossain12/restaurant-management-client",
+    githubLink:
+      "https://github.com/Rohithossain12/restaurant-management-client",
   },
   {
     id: 3,
@@ -23,7 +24,8 @@ const projects = [
     image: "https://i.ibb.co.com/9H8DPyJg/iamge2.png",
     description: "Sports Equipment Online Store",
     liveLink: "https://animated-pika-7436f2.netlify.app",
-    githubLink: "https://github.com/Rohithossain12/sports-equipment-online-store-client",
+    githubLink:
+      "https://github.com/Rohithossain12/sports-equipment-online-store-client",
   },
 ];
 
@@ -45,10 +47,10 @@ const Projects = () => {
             <p className="text-sm text-gray-600 mt-2">{project.description}</p>
             <div className="flex justify-between items-center mt-4">
               <Link
-                to={`/project/${project.id}`}
+                to={`/projectDetails/${project.id}`}
                 className="text-blue-500 hover:text-blue-700 font-semibold"
               >
-                View More / Details
+                View More
               </Link>
             </div>
             {/* Live Link and GitHub Link */}

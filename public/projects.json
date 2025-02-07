@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "PharmaWorld",
+      "image": "https://i.ibb.co/JwbL3xYW/Capture-PNGytsfdts.png",
+      "description": "PharmaWorld is a cutting-edge multi-vendor e-commerce platform dedicated to making healthcare accessible and convenient. We offer a wide range of medicines, healthcare products, and wellness essentials from trusted vendors, all in one place. Our user-friendly interface ensures a seamless shopping experience. Secure payment options and reliable delivery services prioritize your health and convenience.",
+      "technologies": ["React", "Tailwind CSS", "Firebase", "MongoDB", "Express", "JavaScript", "Node.js", "Stripe"],
+      "challenges": "Integrating multiple vendors and ensuring secure payment processing with Stripe while maintaining a smooth user experience.",
+      "futurePlans": "Plans to implement AI-powered product recommendations and expand to international markets with localized payment options.",
+      "liveLink": "https://endearing-fenglisu-dad95b.netlify.app",
+      "githubLink": "https://github.com/Rohithossain12/medicine-selling-client"
+    },
+    {
+      "id": 2,
+      "name": "Master Chef",
+      "image": "https://i.ibb.co.com/WNJnqQ3g/Capturdcfvfcde.png",
+      "description": "Welcome to Master Chef, a modern and efficient food restaurant management website designed to simplify operations and enhance customer satisfaction.\n\nManage menus and track orders efficiently.\nControl inventory and optimize stock levels seamlessly.\nStreamline staff management for better workflow.\nEnhance customer satisfaction with easy-to-use tools for restaurant owners and users alike.",
+      "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express", "JavaScript"],
+      "challenges": "Managing real-time order updates and ensuring smooth inventory tracking with minimal delay.",
+      "futurePlans": "Introducing a mobile app version for better accessibility, along with features like online reservations and loyalty programs.",
+      "liveLink": "https://cute-kulfi-0cc763.netlify.app",
+      "githubLink": "https://github.com/Rohithossain12/restaurant-management-client"
+    },
+    {
+      "id": 3,
+      "name": "🏆 Sport Specialist",
+      "image": "https://i.ibb.co.com/9H8DPyJg/iamge2.png",
+      "description": "Sport Specialist is your go-to online store for top-quality sports equipment. We offer a wide variety of gear, apparel, and accessories for athletes of all levels. Whether you're a professional or a fitness enthusiast, you'll find everything you need to stay at the top of your game. Our easy-to-navigate website, secure payment options, and prompt delivery ensure a smooth shopping experience.",
+      "technologies": ["React", "Tailwind CSS", "Firebase", "MongoDB", "Express", "Node.js", "JavaScript"],
+      "challenges": "Handling a large inventory of products and ensuring accurate order fulfillment across multiple categories.",
+      "futurePlans": "Expanding the product range to include fitness programs and integrating AR technology for virtual product try-ons.",
+      "liveLink": "https://animated-pika-7436f2.netlify.app",
+      "githubLink": "https://github.com/Rohithossain12/sports-equipment-online-store-client"
+    }
+  ]
+  
