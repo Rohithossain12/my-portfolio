@@ -7,7 +7,6 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        {/* <h1 className="text-2xl font-bold">My Portfolio</h1> */}
         <img className="w-12 h-12 rounded-full" src={image} alt="" />
 
         <button

@@ -43,8 +43,8 @@ const About = () => {
               >
                 I started my programming journey a few years ago, learning web
                 development. Over time, I’ve gained proficiency in JavaScript,
-                React, Node.js,express,mongodb, nextjs,and more, and I continue to grow by exploring
-                new technologies.
+                React, Node.js,express,mongodb, nextjs,and more, and I continue
+                to grow by exploring new technologies.
               </motion.p>
             </div>
 
@@ -64,7 +64,12 @@ const About = () => {
                 transition={{ duration: 1.5, delay: 0.7 }}
                 className="text-lg sm:text-xl leading-relaxed"
               >
-              I enjoy building interactive and responsive user interfaces, particularly with React for the front end. I’m passionate about creating seamless user experiences, crafting pixel-perfect designs, and optimizing performance for web applications. My focus is on delivering intuitive, accessible, and scalable solutions that enhance user engagement.
+                I enjoy building interactive and responsive user interfaces,
+                particularly with React for the front end. I’m passionate about
+                creating seamless user experiences, crafting pixel-perfect
+                designs, and optimizing performance for web applications. My
+                focus is on delivering intuitive, accessible, and scalable
+                solutions that enhance user engagement.
               </motion.p>
             </div>
           </div>
