@@ -20,7 +20,7 @@ const About = () => {
           animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
           transition={{ duration: 1.5 }}
         >
-          <h2 className="text-4xl sm:text-5xl font-bold text-purple-500 mb-6">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple-500 mb-6">
             About Me
           </h2>
 

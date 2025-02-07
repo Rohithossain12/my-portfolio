@@ -32,7 +32,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="py-10 bg-gray-800 rounded-lg">
-      <h1 className="text-3xl font-bold text-white text-center mb-8">
+      <h1 className="text-2xl lg:text-4xl md:text-3xl font-bold text-white text-center mb-8">
         My Projects
       </h1>
       <div className="container mb-10 mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

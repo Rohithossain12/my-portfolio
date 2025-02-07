@@ -3,17 +3,26 @@ import About from "../about/About";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
-import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
-import { Typewriter } from "react-simple-typewriter"; 
-import image from "../../assets/174131581.jpeg"; 
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaTwitter,
+} from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
+import image from "../../assets/174131581.jpeg";
 
 const Home = () => {
   return (
     <div className="container mx-auto px-4 mt-10">
-      <section id="home" className="bg-gray-800 text-white text-white py-10 rounded-lg">
+      <section
+        id="home"
+        className="bg-gray-800 text-white text-white py-10 rounded-lg"
+      >
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left p-10 space-y-6 md:space-y-0">
           <div className="md:w-1/2">
-            <h1 className="text-3xl  sm:text-4xl md:text-5xl font-bold">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
               Hi There! <span className="wave">👋</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold  mt-2">
@@ -42,7 +51,6 @@ const Home = () => {
               learned.
             </p>
 
-            
             <div className="flex space-x-6 justify-center md:justify-start mt-6">
               <a
                 href="https://github.com/Rohithossain12"

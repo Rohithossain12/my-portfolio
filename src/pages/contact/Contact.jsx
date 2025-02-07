@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "emailjs-com";
@@ -34,7 +34,7 @@ const Contact = () => {
 
   return (
     <div className="bg-gray-800 py-10 rounded-lg">
-      <h1 className="text-3xl text-white font-bold mb-8 text-center">
+      <h1 className="text-2xl lg:text-4xl md:text-3xl text-white font-bold mb-8 text-center">
         Contact Information
       </h1>
       <div className="container mx-auto rounded-lg p-8">
