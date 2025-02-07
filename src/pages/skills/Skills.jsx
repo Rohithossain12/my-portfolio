@@ -14,6 +14,7 @@ import {
   SiExpress,
   SiFirebase,
   SiMongodb,
+  SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
 
@@ -29,7 +30,7 @@ const skills = [
   { id: 9, icon: <SiBootstrap />, name: "Bootstrap" },
   { id: 10, icon: <SiMongodb />, name: "MongoDB" },
   { id: 11, icon: <FaGithub />, name: "GitHub" },
-  { id: 11, icon: <FaGithub />, name: "GitHub" },
+  { id: 12, icon: <SiNextdotjs />, name: "Next.js" },
 ];
 
 const Skills = () => {
@@ -68,15 +69,21 @@ const Skills = () => {
   };
 
   return (
-    <div className="bg-gray-800 py-10 rounded-lg">
-      <h1 className="text-white text-3xl font-bold mb-8 text-center">My Skills</h1>
-      <div className="container mx-auto">
+    <div className="bg-gray-800 py-10  rounded-lg">
+      <h1 className="text-white text-3xl font-bold mb-8 text-center">
+        My Skills
+      </h1>
+      <div className="container mx-auto px-5">
         <Slider {...settings}>
           {skills.map((skill) => (
             <div key={skill.id} className="p-2 mb-8">
               <div className="flex flex-col items-center justify-center bg-white shadow-md rounded-lg p-4 h-32 md:h-40 lg:h-48">
-                <div className="text-4xl md:text-5xl lg:text-6xl text-blue-600">{skill.icon}</div>
-                <p className="mt-2 text-sm md:text-base lg:text-lg font-medium">{skill.name}</p>
+                <div className="text-4xl md:text-5xl lg:text-6xl text-blue-600">
+                  {skill.icon}
+                </div>
+                <p className="mt-2 text-sm md:text-base lg:text-lg font-medium">
+                  {skill.name}
+                </p>
               </div>
             </div>
           ))}

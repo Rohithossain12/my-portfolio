@@ -3,14 +3,14 @@ import About from "../about/About";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
-import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter"; 
 import image from "../../assets/174131581.jpeg"; 
 
 const Home = () => {
   return (
     <div className="container mx-auto px-4 mt-10">
-      <section className="bg-gray-800 text-white text-white py-10 rounded-lg">
+      <section id="home" className="bg-gray-800 text-white text-white py-10 rounded-lg">
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left p-10 space-y-6 md:space-y-0">
           <div className="md:w-1/2">
             <h1 className="text-3xl  sm:text-4xl md:text-5xl font-bold">
@@ -23,7 +23,7 @@ const Home = () => {
             <div className="mt-4">
               <span className="text-lg text-purple-500 sm:text-xl md:text-2xl font-semibold">
                 <Typewriter
-                  words={["I'm a Full Stack Developer.", "React Developer."]}
+                  words={["I'm a Frontend Developer.", "React Developer."]}
                   loop={true}
                   cursor
                   cursorStyle="_"
@@ -68,6 +68,12 @@ const Home = () => {
               >
                 <FaEnvelope />
               </a>
+              <a
+                href="https://x.com/RafidRohit41291"
+                className=" text-2xl sm:text-3xl md:text-4xl hover:text-white"
+              >
+                <FaTwitter />
+              </a>
             </div>
 
             <div className="mt-6">
@@ -92,19 +98,19 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section className="mt-10">
+      <section id="about" className="mt-10">
         <About />
       </section>
       {/* Skills Section */}
-      <section className="mt-10">
+      <section id="skills" className="mt-10">
         <Skills />
       </section>
       {/* Projects */}
-      <section>
+      <section id="projects" className="mt-10">
         <Projects />
       </section>
       {/* Contact Section */}
-      <section>
+      <section id="contact" className="mt-10">
         <Contact />
       </section>
     </div>
