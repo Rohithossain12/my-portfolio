@@ -13,12 +13,12 @@
     {
       "id": 2,
       "name": "Master Chef",
-      "image": "https://i.ibb.co.com/WNJnqQ3g/Capturdcfvfcde.png",
+      "image": "https://i.ibb.co.com/ds9jXq6x/master-chef2-PNG.png",
       "description": "Welcome to Master Chef, a modern and efficient food restaurant management website designed to simplify operations and enhance customer satisfaction.\n\nManage menus and track orders efficiently.\nControl inventory and optimize stock levels seamlessly.\nStreamline staff management for better workflow.\nEnhance customer satisfaction with easy-to-use tools for restaurant owners and users alike.",
       "technologies": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express", "JavaScript"],
       "challenges": "Managing real-time order updates and ensuring smooth inventory tracking with minimal delay.",
       "futurePlans": "Introducing a mobile app version for better accessibility, along with features like online reservations and loyalty programs.",
-      "liveLink": "https://cute-kulfi-0cc763.netlify.app",
+      "liveLink": "https://masterchefr.netlify.app/",
       "githubLink": "https://github.com/Rohithossain12/restaurant-management-client"
     },
     {

@@ -16,10 +16,7 @@ import image from "../../assets/174131581.jpeg";
 const Home = () => {
   return (
     <div className="container mx-auto px-4 mt-10">
-      <section
-        id="home"
-        className="bg-gray-800 text-white text-white py-10 rounded-lg"
-      >
+      <section id="home" className="bg-gray-800 text-white  py-10 rounded-lg">
         <div className="flex flex-col md:flex-row items-center justify-between text-center md:text-left p-10 space-y-6 md:space-y-0">
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
@@ -97,7 +94,7 @@ const Home = () => {
 
           <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
             <img
-              src={image}
+              src="https://i.ibb.co.com/3YShgHdw/BNCL1953.jpg"
               alt="Developer Image"
               className="w-48 sm:w-56 md:w-64 lg:w-72 rounded-full border-4 border-purple-300 shadow-lg"
             />

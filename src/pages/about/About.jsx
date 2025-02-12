@@ -31,7 +31,7 @@ const About = () => {
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
                 transition={{ duration: 1.5, delay: 0.3 }}
-                className="text-2xl font-semibold text-purple-300 mb-3"
+                className=" text-xl md:text-2xl font-semibold text-purple-300 mb-3"
               >
                 My Programming Journey
               </motion.h3>
@@ -54,7 +54,7 @@ const About = () => {
                 initial={{ opacity: 0, x: 100 }}
                 animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
                 transition={{ duration: 1.5, delay: 0.6 }}
-                className="text-2xl font-semibold text-purple-300 mb-3"
+                className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
               >
                 The Type of Work I Enjoy
               </motion.h3>
@@ -80,7 +80,7 @@ const About = () => {
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
               transition={{ duration: 1.5, delay: 0.9 }}
-              className="text-2xl font-semibold text-purple-300 mb-3"
+              className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
             >
               Hobbies & Interests
             </motion.h3>
@@ -102,7 +102,7 @@ const About = () => {
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
               transition={{ duration: 1.5, delay: 1.2 }}
-              className="text-2xl font-semibold text-purple-300 mb-3"
+              className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
             >
               Showcase My Personality
             </motion.h3>

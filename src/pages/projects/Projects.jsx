@@ -12,9 +12,9 @@ const projects = [
   {
     id: 2,
     name: "Master Chef",
-    image: "https://i.ibb.co.com/WNJnqQ3g/Capturdcfvfcde.png",
+    image: "https://i.ibb.co.com/ds9jXq6x/master-chef2-PNG.png",
     description: "Restaurant Management Website 🍽️",
-    liveLink: "https://cute-kulfi-0cc763.netlify.app",
+    liveLink: "https://masterchefr.netlify.app",
     githubLink:
       "https://github.com/Rohithossain12/restaurant-management-client",
   },
