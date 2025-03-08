@@ -31,7 +31,7 @@ const About = () => {
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
                 transition={{ duration: 1.5, delay: 0.3 }}
-                className=" text-xl md:text-2xl font-semibold text-purple-300 mb-3"
+                className=" text-lg md:text-2xl font-semibold text-purple-300 mb-3"
               >
                 My Programming Journey
               </motion.h3>
@@ -41,7 +41,7 @@ const About = () => {
                 transition={{ duration: 1.5, delay: 0.4 }}
                 className="text-lg sm:text-xl leading-relaxed"
               >
-                I started my programming journey a few years ago, learning web
+                I started my programming journey 1 years ago, learning web
                 development. Over time, I’ve gained proficiency in JavaScript,
                 React, Node.js,express,mongodb, nextjs,and more, and I continue
                 to grow by exploring new technologies.
@@ -54,7 +54,7 @@ const About = () => {
                 initial={{ opacity: 0, x: 100 }}
                 animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
                 transition={{ duration: 1.5, delay: 0.6 }}
-                className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
+                className="text-lg md:text-2xl font-semibold text-purple-300 mb-3"
               >
                 The Type of Work I Enjoy
               </motion.h3>
@@ -80,7 +80,7 @@ const About = () => {
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -100 }}
               transition={{ duration: 1.5, delay: 0.9 }}
-              className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
+              className="text-lg md:text-2xl font-semibold text-purple-300 mb-3"
             >
               Hobbies & Interests
             </motion.h3>
@@ -102,7 +102,7 @@ const About = () => {
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : 100 }}
               transition={{ duration: 1.5, delay: 1.2 }}
-              className="text-xl md:text-2xl font-semibold text-purple-300 mb-3"
+              className="text-lg md:text-2xl font-semibold text-purple-300 mb-3"
             >
               Showcase My Personality
             </motion.h3>

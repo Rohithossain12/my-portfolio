@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation(); 
-
+  const location = useLocation();
 
   const isHomePage = location.pathname === "/";
 
@@ -39,7 +37,6 @@ const Navbar = () => {
             isOpen ? "block" : "hidden md:flex"
           }`}
         >
-         
           {isHomePage ? (
             <>
               <li className="text-center">
@@ -69,8 +66,7 @@ const Navbar = () => {
               </li>
               <li className="text-center">
                 <a
-                  href="/resume.pdf"
-                  download
+                  href="https://drive.google.com/uc?export=download&id=1vBYD81Ta5rVLoYiGLSGXAg9UqNL-9eld"
                   className="bg-white text-purple-600 px-4 py-2 rounded-full hover:bg-gray-200"
                 >
                   Resume
