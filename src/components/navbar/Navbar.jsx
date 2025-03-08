@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <img className="w-14 h-14 rounded-full" src="https://i.ibb.co.com/3YShgHdw/BNCL1953.jpg" alt="" />
+        <img className="w-12 h-12 rounded-full object-center" src="https://i.ibb.co.com/3YShgHdw/BNCL1953.jpg" alt="" />
 
         <button
           className="md:hidden text-white focus:outline-none"
